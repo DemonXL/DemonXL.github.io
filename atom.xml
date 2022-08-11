@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DemonXL</title>
+  
+  
+  <link href="https://demonxl.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://demonxl.github.io/"/>
+  <updated>2022-08-11T12:27:32.318Z</updated>
+  <id>https://demonxl.github.io/</id>
+  
+  <author>
+    <name>Liang Li</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>home</title>
+    <link href="https://demonxl.github.io/2022/08/11/home/"/>
+    <id>https://demonxl.github.io/2022/08/11/home/</id>
+    <published>2022-08-11T12:25:15.000Z</published>
+    <updated>2022-08-11T12:27:32.318Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hello&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
