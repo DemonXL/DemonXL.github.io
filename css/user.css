@@ -1,0 +1,128 @@
+.timeline-list,
+.publication-list,
+.patent-list {
+  padding-left: 1.35rem;
+}
+
+.timeline-list li,
+.publication-list li,
+.patent-list li {
+  margin-bottom: 1rem;
+}
+
+.timeline-date {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: #666;
+  font-size: 0.92em;
+}
+
+.timeline-detail,
+.section-note,
+.publication-meta {
+  color: #666;
+}
+
+.collapsible-section {
+  margin: 0 0 1.8rem;
+}
+
+.section-summary {
+  cursor: pointer;
+  color: inherit;
+}
+
+.section-summary::marker {
+  color: #7a8288;
+}
+
+.section-summary h1 {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.section-summary:hover h1 {
+  color: #c62641;
+}
+
+.section-summary:focus-visible {
+  outline: 2px solid #c62641;
+  outline-offset: 0.25rem;
+}
+
+.collapsible-section[open] > .section-summary {
+  margin-bottom: 0.8rem;
+}
+
+.section-content > :first-child {
+  margin-top: 0;
+}
+
+.section-content > :last-child {
+  margin-bottom: 0;
+}
+
+.education-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.education-list li {
+  margin: 0 0 1.2rem;
+  padding-left: 1rem;
+  border-left: 2px solid #ddd;
+}
+
+.education-list li:last-child {
+  margin-bottom: 0;
+}
+
+.education-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  line-height: 1.55;
+}
+
+.education-period {
+  color: #666;
+  font-size: 0.92em;
+  white-space: nowrap;
+}
+
+.education-degree {
+  white-space: nowrap;
+}
+
+.education-institution {
+  margin-top: 0.2rem;
+  line-height: 1.55;
+}
+
+.education-detail {
+  display: block;
+  margin-top: 0.25rem;
+  color: #666;
+  line-height: 1.55;
+}
+
+.publication-list li,
+.patent-list li {
+  line-height: 1.65;
+}
+
+.publication-meta {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.92em;
+}
+
+@media (max-width: 33.99em) {
+  .education-period {
+    white-space: normal;
+  }
+}
