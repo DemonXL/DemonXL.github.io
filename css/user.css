@@ -23,6 +23,23 @@
   color: #666;
 }
 
+.education-line {
+  display: grid;
+  grid-template-columns: 5.2rem minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 0.8rem;
+  line-height: 1.55;
+}
+
+.education-line strong {
+  white-space: nowrap;
+}
+
+.education-institution .timeline-detail {
+  display: block;
+  margin-top: 0.15rem;
+}
+
 .publication-list li,
 .patent-list li {
   line-height: 1.65;
